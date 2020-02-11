@@ -4,7 +4,7 @@
   &--grey {
     background: left -20px top 143px no-repeat url(/assets/img/bg-left.png),
     right -75px top 123px no-repeat url(/assets/img/bg-right.png),
-    center / cover repeat-y url(/assets/img/bg-1.png);
+    center / cover repeat-y url(/assets/img/bg-1.jpg);
   }
 
   &--pt60 {
@@ -43,7 +43,7 @@
     &--grey {
       background: left -20px top 143px / 20% no-repeat url(/assets/img/bg-left.png),
       right -75px top 123px / 23% no-repeat url(/assets/img/bg-right.png),
-      center / cover repeat-y url(/assets/img/bg-1.png);
+      center / cover repeat-y url(/assets/img/bg-1.jpg);
     }
   }
 }
