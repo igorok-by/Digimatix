@@ -1,0 +1,31 @@
+.btn {
+  position: absolute;
+  top: 0;
+  display: block;
+  padding-top: 30px;
+  color: $default-color;
+  font-family: $fourthFont;
+  font-size: 27px;
+  letter-spacing: 0.74px;
+  text-align: center;
+  
+  @extend %bg-btn;
+  
+  &:hover {
+    @extend %bg-btn-hover;
+  }
+  
+  &:active {
+    padding-top: 27px;
+    @extend %bg-btn-pushed;
+  }
+  
+  &__wrap {
+    position: relative;
+    width: 372px;
+    height: 77px;
+    margin-top: rem(43);
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

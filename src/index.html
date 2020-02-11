@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Digimatix</title>
+</head>
+
+<body>
+  <!-- Set of icons -->
+  <svg style="display:none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <symbol id="icon-ok" viewBox="0 0 12 19">
+        <path d="M10.63 4.917c0 2.696-2.265 4.888-5.049 4.888-2.784 0-5.05-2.192-5.05-4.888 0-2.696 2.266-4.89 5.05-4.89s5.048 2.194 5.048 4.89zm-7.14 0c0 1.115.938 2.023 2.091 2.023 1.152 0 2.09-.908 2.09-2.023 0-1.116-.938-2.025-2.09-2.025-1.153 0-2.09.909-2.09 2.025zM1.418 9.97c.262.004.526.076.763.221a6.589 6.589 0 006.798 0 1.508 1.508 0 012.04.45 1.406 1.406 0 01-.465 1.976 9.634 9.634 0 01-2.931 1.176l2.823 2.733a1.4 1.4 0 010 2.025c-.578.56-1.514.56-2.091 0L5.58 15.866l-2.773 2.686a1.5 1.5 0 01-1.046.42c-.378 0-.756-.14-1.045-.42a1.4 1.4 0 01-.001-2.025l2.822-2.734a9.65 9.65 0 01-2.931-1.175 1.407 1.407 0 01-.464-1.976 1.49 1.49 0 011.276-.67z"/>
+      </symbol>
+      <symbol id="icon-fb" viewBox="0 0 320 512">
+        <path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/>
+      </symbol>
+      <symbol id="icon-vk" viewBox="0 0 284 382">
+        <path d="M262.921 202.58c-13.083-15.222-30.502-25.305-52.256-30.238v-2.047c15.14-6.796 26.996-17.432 35.59-31.898 8.588-14.457 12.885-30.962 12.885-49.505 0-15.993-3.116-30.113-9.334-42.371-6.233-12.25-15.65-22.03-28.261-29.341-11.672-6.807-24.156-11.273-37.48-13.402C170.738 1.651 151.154.59 125.294.59H.907v380h140.945c24.43 0 44.581-2.39 60.417-7.152 15.841-4.754 30.392-12.754 43.63-23.99 11.2-9.358 20.105-21.181 26.721-35.476 6.615-14.292 9.936-30.873 9.936-49.762 0-25.852-6.545-46.403-19.635-61.63zM88.888 70.255h6.142c15.765 0 27.629.13 35.585.383 7.97.258 14.857 1.748 20.7 4.466 6.15 2.9 10.67 7.574 13.587 14.038 2.919 6.47 4.38 12.763 4.38 18.882 0 8.347-1.346 15.66-4.017 21.95-2.687 6.301-7.573 11.235-14.665 14.802-6.469 3.236-12.726 5.018-18.798 5.365-6.072.343-16.671.503-31.806.503h-11.11V70.255h.002zm97.065 216.8c-3.703 7.229-9.578 12.724-17.617 16.452-9.15 4.262-18.134 6.562-26.957 6.896-8.831.34-24.755.52-47.761.52h-4.732V215.72h16.308c15.772 0 28.337.127 37.716.386 9.381.254 16.755 1.493 22.111 3.703 8.833 3.405 15.446 8.417 19.865 15.053 4.42 6.635 6.629 15.822 6.629 27.562 0 9.185-1.858 17.403-5.562 24.63z" />
+      </symbol>
+      <symbol id="icon-play" viewBox="0 0 28 31">
+        <path d="M2.202 1.973l23.487 13.465L2.202 28.903z"/>
+        <path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="50" stroke-width="4" d="M2.202 1.973v0l23.487 13.465v0L2.202 28.903v0z"/>
+      </symbol>
+    </defs>
+  </svg><!-- end Set of icons -->
+  
+  <!-- main wrapper -->
+  <main>
+    <!-- Section: First screen -->
+    <section class="section section--grey">
+      <!-- Header -->
+      <header class="header">
+        <a href="#" class="header__logo"></a>
+        <div class="social__wrap">
+          <a href="#" class="social">
+            <svg class="social__icon social__icon--ok"><use xlink:href="#icon-ok"></use></svg>
+          </a>
+          <a href="#" class="social">
+            <svg class="social__icon social__icon--fb"><use xlink:href="#icon-fb"></use></svg>
+          </a>
+          <a href="#" class="social">
+            <svg class="social__icon social__icon--vk"><use xlink:href="#icon-vk"></use></svg>
+          </a>
+        </div>
+      </header><!-- end Header -->
+
+      <div class="container">
+        <div class="row">
+          <div class="row__col">
+            <h3 class="section__subtitle">21 апреля</h3>
+            <h1 class="section__title">Бухгалтерский марафон</h1>
+            <p class="text text--centered text--lh22 text--lspac-016">21 апреля в честь Дня Главбуха мы проводим первый в истории Бухгалтерский марафон.<br>
+              Ведущие эксперты по бухучету и налогам весь день будут отвечать<br>
+              на самые сложные рабочие вопросы.</p>
+            <a href="#" class="link link--pt25">
+              <div class="link__icon link__icon-dashboard"></div>
+              <p class="link__text link__text--fs22">Расписание</p>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- tiles -->
+      <div class="tile__wrap">
+        <div class="container">
+          <div class="row">
+            <div class="row__col-4 row__col-4--to6sm row__col-4--to12xs">
+              <a href="#" class="tile">
+                <div class="tile__video tile__video--1">
+                  <div class="tile__frame"></div>
+                  <div class="tile__icon-play">
+                    <svg><use xlink:href="#icon-play"></use></svg>
+                  </div>
+                </div>
+                <time class="tile__text">12:00</time>
+                <p class="tile__text tile__text--fs14">Актуальные вопросы расчета пособий. Изменения в 2015 году</p>
+                <p class="tile__text tile__text--fs16">Сергей Воронцов</p>
+              </a>
+            </div>
+            <div class="row__col-4 row__col-4--to6sm row__col-4--to12xs">
+              <a href="#" class="tile">
+                <div class="tile__video tile__video--2">
+                  <div class="tile__frame"></div>
+                  <div class="tile__icon-play">
+                    <svg><use xlink:href="#icon-play"></use></svg>
+                  </div>
+                </div>
+                <time class="tile__text">13:00</time>
+                <p class="tile__text tile__text--fs14"> НДФЛ. Неоднозначные ситуации при расчете</p>
+                <p class="tile__text tile__text--fs16">Андрей Свиридов</p>
+              </a>
+            </div>
+            <div class="row__col-4 row__col-4--to6sm row__col-4--to12xs">
+              <a href="#" class="tile">
+                <div class="tile__video tile__video--3">
+                  <div class="tile__frame"></div>
+                  <div class="tile__icon-play">
+                    <svg><use xlink:href="#icon-play"></use></svg>
+                  </div>
+                </div>
+                <time class="tile__text">16:30</time>
+                <p class="tile__text tile__text--fs14">Налог на прибыль: спорные вопросы и поправки 2015 года</p>
+                <p class="tile__text tile__text--fs16">Федор Иванов</p>
+              </a>
+            </div>
+            <div class="row__col-4 row__col-4--to6sm row__col-4--to12xs">
+              <a href="#" class="tile">
+                <div class="tile__video tile__video--4">
+                  <div class="tile__frame"></div>
+                  <div class="tile__icon-play">
+                    <svg><use xlink:href="#icon-play"></use></svg>
+                  </div>
+                </div>
+                <time class="tile__text">12:00</time>
+                <p class="tile__text tile__text--fs14">Актуальные вопросы расчета пособий. Изменения в 2015 году</p>
+                <p class="tile__text tile__text--fs16">Сергей Воронцов</p>
+              </a>
+            </div>
+            <div class="row__col-4 row__col-4--to6sm row__col-4--to12xs">
+              <a href="#" class="tile">
+                <div class="tile__video tile__video--5">
+                  <div class="tile__frame"></div>
+                  <div class="tile__icon-play">
+                    <svg><use xlink:href="#icon-play"></use></svg>
+                  </div>
+                </div>
+                <time class="tile__text">13:00</time>
+                <p class="tile__text tile__text--fs14"> НДФЛ. Неоднозначные ситуации при расчете</p>
+                <p class="tile__text tile__text--fs16">Андрей Свиридов</p>
+              </a>
+            </div>
+            <div class="row__col-4 row__col-4--to6sm row__col-4--to12xs">
+              <a href="#" class="tile">
+                <div class="tile__video tile__video--6">
+                  <div class="tile__frame"></div>
+                  <div class="tile__icon-play">
+                    <svg><use xlink:href="#icon-play"></use></svg>
+                  </div>
+                </div>
+                <time class="tile__text">16:30</time>
+                <p class="tile__text tile__text--fs14">Налог на прибыль: спорные вопросы и поправки 2015 года</p>
+                <p class="tile__text tile__text--fs16">Федор Иванов</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div><!-- end: tiles -->
+      
+      <div class="btn__wrap">
+        <a href="#" class="btn">Зарегистрироваться</a>
+      </div>
+
+      <a href="#" class="link">
+        <p class="link__text">Розыгрыш призов и подарков</p>
+        <div class="link__icon-arr"></div>
+      </a>
+    </section><!-- end Section: First screen -->
+
+    <!-- Section: About -->
+    <section class="section section--pt60 section--pb60">
+      <div class="container">
+        <div class="row">
+          <div class="row__col-6 row__col-6--to12sm">
+            <h2 class="section__title section__title--small">Конкурсы и призы</h2>
+            <div class="schedule">
+              <div class="schedule__item">
+                <div class="schedule__item-header">
+                  <time class="text text--fs16 text--fw-bold text--lspac-011">10:15</time>
+                  <span class="text text--fs16 text--lspac-015">Творческий конкурс</span>
+                </div>
+                <p class="text text--fs14 text--lspac-013">Приз: мультиварка<span class="text text--ml7 text--color-neutral">3 Победителя</span></p>
+              </div>
+              <div class="schedule__item">
+                <div class="schedule__item-header">
+                  <time class="text text--fs16 text--fw-bold text--lspac-011">11:20</time>
+                  <span class="text text--fs16 text--lspac-015">Задача на расчет</span>
+                </div>
+                <p class="text text--fs14 text--lspac-013">Приз: браслет Pandora с шармом.<span class="text text--ml7 text--color-neutral">1 Победитель</span></p>
+              </div>
+              <div class="schedule__item">
+                <div class="schedule__item-header">
+                  <time class="text text--fs16 text--fw-bold text--lspac-011">12:15</time>
+                  <span class="text text--fs16 text--lspac-015">Теоретический вопрос</span>
+                </div>
+                <p class="text text--fs14 text--lspac-013">Приз: цифровая фоторамка.<span class="text text--ml7 text--color-neutral">2 Победителя</span></p>
+              </div>
+              <div class="schedule__item">
+                <div class="schedule__item-header">
+                  <time class="text text--fs16 text--fw-bold text--lspac-011">10:15</time>
+                  <span class="text text--fs16 text--lspac-015">Творческий конкурс</span>
+                </div>
+                <p class="text text--fs14 text--lspac-013">Приз: мультиварка<span class="text text--ml7 text--color-neutral">3 Победителя</span></p>
+              </div>
+              <div class="schedule__item">
+                <div class="schedule__item-header">
+                  <time class="text text--fs16 text--fw-bold text--lspac-011">11:20</time>
+                  <span class="text text--fs16 text--lspac-015">Задача на расчет</span>
+                </div>
+                <p class="text text--fs14 text--lspac-013">Приз: браслет Pandora с шармом.<span class="text text--ml7 text--color-neutral">1 Победитель</span></p>
+              </div>
+              <button type="button" id="btnShow" class="link link--pt0">
+                <p class="link__text">Загрузить больше</p>
+                <div class="link__icon-arr"></div>
+              </button>
+            </div>
+          </div>
+          <div class="row__col-6 row__col-6--dnone-to-sm">
+            <div class="slider__wrap">
+              <div class="slider__frame"></div>
+              <div class="slider">
+                <img src="./assets/img/slider-1.png" class="slider__item" alt="Мультиварка">
+                <img src="./assets/img/slider-1.png" class="slider__item" alt="Мультиварка">
+                <img src="./assets/img/slider-1.png" class="slider__item" alt="Мультиварка">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- end Section: About -->
+  </main><!-- end main wrapper -->
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p class="text text--pb0"><span class="text text--relative text--pb0">©</span> Организатор — </p>
+    <a href="#" class="text text--ml4 text--pb0 text--color-danger">журнал «Главбух»</a>
+    <span class="text__splitter"></span>
+    <a href="" class="text text--pb0 text--color-danger">Обратная связь</a>
+
+    <a href="#" class="link link--m0 link--pt0">
+      <div class="link__icon-arrow"></div>
+    </a>
+  </footer>
+  <!-- end Footer -->
+  
+  <script type="text/javascript" src="https://static.yandex.net/browser-updater/v1/script.js"  charset="utf-8"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+.section {
+  padding-bottom: vw(66);
+  
+  &--grey {
+    background: left -20px top 143px no-repeat url(/assets/img/bg-left.png),
+    right -75px top 123px no-repeat url(/assets/img/bg-right.png),
+    center / cover repeat-y url(/assets/img/bg-1.png);
+  }
+
+  &--pt60 {
+    padding-top: vw(60);
+  }
+
+  &--pb60 {
+    padding-bottom: vw(60);
+  }
+  
+  &__title {
+    padding-bottom: rem(22);
+    color: $warning-color;
+    font-family: $secondFont;
+    font-size: rem(65);
+    font-weight: 700;
+    text-align: center;
+  }
+
+  &__title--small {
+    padding-bottom: rem(33);
+    color: $dark-color;
+    font-size: rem(28);
+  }
+  
+  &__subtitle {
+    padding-bottom: rem(10);
+    font-family: $thirdFont;
+    font-size: rem(45);
+    letter-spacing: rem(0.31);
+    text-align: center;
+  }
+
+  @include media-breakpoint-down(sm) {
+    
+    &--grey {
+      background: left -20px top 143px / 20% no-repeat url(/assets/img/bg-left.png),
+      right -75px top 123px / 23% no-repeat url(/assets/img/bg-right.png),
+      center / cover repeat-y url(/assets/img/bg-1.png);
+    }
+  }
+}

@@ -1,0 +1,71 @@
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: vw(32);
+  color: $danger-color;
+  font-family: $mainFont;
+  background: none;
+  cursor: pointer;
+  transition: $def-transition;
+
+  &:hover {
+    color: $danger-hover;
+  }
+  
+  &:hover &__icon-dashboard {
+    @extend %icon-dashboard-hover;
+  }
+  
+  &:hover &__icon-arr {
+    @extend %icon-arr-hover;
+  }
+
+  &--m0 {
+    margin: 0;
+  }
+
+  &--pt25 {
+    padding-top: vw(25);
+  }
+
+  &--pt0 {
+    padding-top: 0;
+  }
+  
+  &__icon-dashboard {
+    margin-right: rem(16);
+
+    @extend %icon-dashboard;
+  }
+
+  &__icon-arrow {
+    margin-left: rem(58);
+
+    @extend %icon-arrow;
+  }
+
+  &__icon-arr {
+    margin-left: rem(12);
+
+    @extend %icon-arr;
+  }
+
+  &__icon-arr--reverse {
+    transform: rotate(180deg) scaleX(-1);
+  }
+
+  &__text {
+    letter-spacing: -0.16px;
+  }
+
+  &__text--fs22 {
+    font-size: rem(22);
+    font-weight: bold;
+    line-height: rem(18);
+    text-transform: uppercase;
+    letter-spacing: normal;
+  }
+}

@@ -1,0 +1,63 @@
+// Bootstrap 4 mixins
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+// Utils
+@import "utils/vars";
+@import "utils/mixins";
+@import "utils/fonts";
+@import "utils/reset";
+@import "utils/sprites";
+// @import "utils/animation";
+
+html {
+  line-height: $mainLineHeight;
+	font-size: nth($mainFontSize, 1);
+	color: $mainFontColor;
+  height: 100%;
+
+  @include media-breakpoint-down(lg) {
+    font-size: nth($mainFontSize, 2);
+  }
+
+  // @include media-breakpoint-down(md) {
+  //   font-size: nth($mainFontSize, 2);
+  // }
+
+  @include media-breakpoint-down(sm) {
+    font-size: nth($mainFontSize, 3);
+  }
+
+  // @include media-breakpoint-down(xs) {
+  //   font-size: nth($mainFontSize, 3);
+  // }
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  line-height: $mainLineHeight;
+  font-family: $mainFont;
+  font-weight: $mainFontWeight;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $mainFontColor;
+  background-color: $default-color;
+}
+
+
+// Modules
+@import "modules/btn";
+@import "modules/container";
+@import "modules/footer";
+@import "modules/header";
+@import "modules/link";
+@import "modules/row";
+@import "modules/schedule";
+@import "modules/section";
+@import "modules/slider";
+@import "modules/social";
+@import "modules/text";
+@import "modules/tile";

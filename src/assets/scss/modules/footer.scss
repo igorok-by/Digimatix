@@ -1,0 +1,12 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: rem(25);
+  background-color: $default-bckgr;
+
+  &__icons {
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,19 @@
+.schedule {
+  text-align: center;
+
+  &__item {
+    padding-bottom: vw(13);
+    transition: $def-transition;
+  }
+
+  &__item--hidden {
+    height: 0;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  &__item-header {
+    padding-bottom: rem(5);
+  }
+}

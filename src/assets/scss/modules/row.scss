@@ -1,0 +1,40 @@
+.row {
+
+  @include make-row();
+
+  &__col {
+    @include make-col-ready();
+    @include make-col-auto();
+    width: 100%;
+  }
+
+  @for $i from 1 through 12 {
+
+    &__col-#{$i} {
+      @include make-col-ready();
+      @include make-col($i);
+    }
+  }
+
+  @include media-breakpoint-down(sm) {
+    
+    &__col-4--to6sm {
+      @include make-col(6);
+    }
+    
+    &__col-6--to12sm {
+      @include make-col(12);
+    }
+    
+    &__col-6--dnone-to-sm {
+      display: none;
+    }
+  }
+  
+  @include media-breakpoint-down(xs) {
+    
+    &__col-4--to12xs {
+      @include make-col(12);
+    }
+  }
+}

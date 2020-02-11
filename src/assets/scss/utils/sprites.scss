@@ -1,0 +1,65 @@
+
+$background: url(/assets/img/sprites.png) no-repeat;
+
+%icon-dashboard {
+  background: $background;
+	background-position: -379px -118px;
+	width: 33px;
+	height: 29px;
+}
+
+%icon-dashboard-hover {
+  background: $background;
+	background-position: -418px -119px;
+	width: 33px;
+	height: 29px;
+}
+
+%logo {
+  background: $background;
+	background-position: -378px 0;
+	width: 153px;
+	height: 72px;
+}
+
+%bg-btn {
+  background: $background;
+	background-position: 0 -159px;
+	width: 372px;
+  height: 77px;
+}
+
+%bg-btn-hover {
+  background: $background;
+	background-position: 0 -78px;
+	width: 372px;
+	height: 77px;
+}
+
+%bg-btn-pushed {
+  background: $background;
+	background-position: 0 0;
+	width: 373px;
+  height: 74px;
+}
+
+%icon-arr {
+  background: $background;
+	background-position: -416px -82px;
+	width: 21px;
+	height: 21px;
+}
+
+%icon-arr-hover {
+  background: $background;
+	background-position: -444px -83px;
+	width: 21px;
+	height: 21px;
+}
+
+%icon-arrow {
+  background: $background;
+	background-position: -377px -77px;
+	width: 31px;
+	height: 31px;
+}

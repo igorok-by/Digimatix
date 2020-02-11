@@ -1,0 +1,64 @@
+// Font
+$mainFont                : 'Circe', Helvetica, Arial, sans-serif;
+$secondFont              : 'PFCentroSlabPro', Arial, sans-serif;
+$thirdFont               : 'Lobster', cursive;
+$fourthFont              : 'AmazingGrotesk', Georgia, serif;
+
+
+// Size
+$mainFontColor           : #5f5b5b;
+$mainFontSize            : (18px, 16px, 15px);
+$mainFontWeight          : 400;
+$mainLineHeight          : 1;
+
+// $lgDesktopWidth          : 1440px;
+// $desktopWidth            : 1200px;
+// $smDesktopWidth          : 992px;
+// $tableWidth              : 768px;
+// $phoneWidth              : 576px;
+// $smPhoneWidth            : 320px;
+
+
+$grid-gutter-width       : 16px;
+$grid-breakpoints        : (xs: 0,
+                            sm: 576px,
+                            md: 768px,
+                            lg: 992px,
+                            xl: 1200px);
+
+$container-max-widths    : (sm: 540px,
+                            md: 720px,
+                            lg: 960px,
+                            xl: 1006px);
+
+
+// Main color
+$dark-color              : #000;
+$default-color           : #fff;
+// $primary-color           : #108be9;
+// $success-color           : #6df6eb;
+$danger-color            : #e02222;
+$warning-color           : #f94f33;
+
+// Background
+// $primary-bckgr           : #fefefe;
+$default-bckgr           : #f0f0f0;
+$danger-hover            : #ff4e4e;
+// $dark-bckgr              : #393939;
+// $hover-bckgr             : #1c1a1a;
+
+// Neutral Color
+$neutral-primary         : #9b9b9b;
+// $neutral-regular         : #121212;
+// $neutral-secondary       : #AEAEAE;
+// $neutral-placeholder     : #CACACA;
+
+// Border Color
+$border-base             : #ebebeb;
+// $border-light            : #E4E7ED;
+// $border-lighter          : #EBEEF5;
+// $border-lightex          : #F2F6FC;
+
+// Transition
+$def-transition          : all .3s cubic-bezier(0.25, 0.1, 0.25, 1);
+$long-transition         : all .8s cubic-bezier(0.25, 0.1, 0.25, 1);

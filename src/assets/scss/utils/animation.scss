@@ -1,0 +1,8 @@
+@keyframes top-down {
+  0%,to {
+    transform: translate(0);
+  }
+  50% {
+    transform: translateY(rem(6));
+  }
+}

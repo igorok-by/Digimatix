@@ -1,0 +1,72 @@
+.text {
+  padding-bottom: vw(15);
+
+  &--relative {
+    position: relative;
+    bottom: rem(2.5);
+  }
+  
+  &--centered {
+    text-align: center;
+  }
+
+  &--ml7 {
+    margin-left: rem(7);
+  }
+
+  &--ml4 {
+    margin-left: rem(4);
+  }
+
+  &--pb0 {
+    padding-bottom: 0;
+  }
+  
+  &--lh22 {
+    line-height: rem(22);
+  }
+
+  &--fs14 {
+    font-size: rem(14);
+  }
+
+  &--fs16 {
+    font-size: rem(16);
+  }
+
+  &--fw-bold {
+    font-weight: 700;
+  }
+
+  &--color-neutral {
+    color: $neutral-primary;
+  }
+
+  &--color-danger {
+    color: $danger-color;
+    transition: $def-transition;
+  }
+
+  &--color-danger:hover {
+    color: $danger-hover;
+  }
+
+  $letter-spacings:
+    "-011" -0.11,
+    "-013" -0.13,
+    "-015" -0.15,
+    "-016" -0.16;
+  @each $name, $value in $letter-spacings {
+    &--lspac#{$name} {
+      letter-spacing: rem($value);
+    }
+  }
+
+  &__splitter {
+    width: 1px;
+    height: rem(18);
+    margin-left: rem(15);
+    margin-right: rem(15);
+    background: #c8c8c8;
+  }
+}
